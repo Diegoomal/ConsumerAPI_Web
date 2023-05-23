@@ -1,6 +1,6 @@
 # Projeto Integrado - Trabalho Final - (web)ebeer
 
-Trabalho final da materia de Devops
+Trabalho final da materia de Projeto Integrado, CNN implementada para reconhecer marca das cervejas
 
 ## Execução do projeto
 

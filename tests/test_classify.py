@@ -4,7 +4,8 @@ class Test_Classify:
 
         import importlib_resources
 
-        resource_path = importlib_resources.files('ebeer').joinpath('trained_model.h5')
+        resource_path = importlib_resources.files(
+            'ebeer').joinpath('trained_model.h5')
 
         flg = False if resource_path is None else True
 
@@ -20,6 +21,6 @@ class Test_Classify:
 
         n_pos = bc.predict("assets/test/0.jpg")
 
-        print("Label:", ebeer.labels_index[n_pos]["name"])
+        print("Label:", ebeer.DataLabel[n_pos]["name"])
 
         assert True
